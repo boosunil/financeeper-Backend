@@ -127,3 +127,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.pyc
+.idea
+flush_db.sh
+remove_migrations.sh
+
+static/
+media/
+fileupload/migrations
+authentication/migrations
+team/migrations
+
+logs
+**/migrations/
+.env
+.vscode/settings.json
+**/migrations/*
+
