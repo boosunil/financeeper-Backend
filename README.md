@@ -23,7 +23,7 @@ In project settings.py file in Databases section
  
  After that run there two important commands
  
- python manage.py makemigrations
+ python manage.py makemigrations,
  python manage.py migrate
  
  # Create Super User
